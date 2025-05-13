@@ -104,17 +104,38 @@ header {
 
 /* 메인에 대한 스타일 적용 */
 
+/* index */
+
 .main {
     width: 100%;
     height: calc(100% - 200px);
     background-color: tomato;
 }
 
+.cardSet {
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    justify-content: center;
+    gap: 100px;
+    margin-left: 150px;
+}
+
+/* keyword */
+
 .main2 {
     width: 100%;
     height: calc(100% - 100px);
     background-color: tomato;
 }
+
+.klgrid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 200px;
+}
+
+/* gift */
 
 .kcd {
     display: flex;
@@ -132,30 +153,6 @@ header {
 
 .kcdamargin {
     margin-left: 250px;
-}
-
-.clgrid {
-    display: grid;
-    grid-template-columns: repeat(6, 200px);
-    justify-content: center;
-    gap: 100px;
-    margin-left: 150px;
-}
-
-.klgrid {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    justify-content: center;
-    gap: 200px;
-}
-
-.clist {
-    margin-top: 50px;
-}
-
-.ftpcmg {
-    padding-left: 5px;
-    padding-top: 45px;
 }
 
 /* footer에 관한 스타일 적용 */
