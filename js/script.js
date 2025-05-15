@@ -9,14 +9,14 @@ $(document).ready(function(){
         $(".info").hide()
     })
     
-    // $(".teamName").mouseover(function(){
-    //     $(".teamName").hide()
-    //     $(".gitSite").show()
-    // })
-    // $(".gitSite").mouseout(function(){
-    //     $(".teamName").show()
-    //     $(".gitSite").hide()
-    // })
+    $(".teamName").mouseover(function(){
+        $(".teamName").hide()
+        $(".gitSite").show()
+    })
+    $(".gitSite").mouseout(function(){
+        $(".teamName").show()
+        $(".gitSite").hide()
+    })
 
 
 })

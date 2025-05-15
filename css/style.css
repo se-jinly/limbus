@@ -8,7 +8,7 @@
     box-sizing: border-box;
     list-style-type: none;
     color: #000;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 a {
@@ -159,45 +159,58 @@ header {
 
 footer {
     width: 100vw;
-    height: 100px;
+    height: 300px;
     position: relative;
 }
 
 .leftFooterBox {
     width: 45vw;
-    height: 100px;
+    height: 300px;
     float: left;
 }
 
 .fanMade {
-
+    padding: 30px;
+    width: fit-content;
+    height: min-content;
 }
 
 .teamName {
+    width: fit-content;
+    height: min-content;
+    padding-left: 20px;
+}
 
+.gitSite {
+    position: absolute;
+    left: 200px;
+    bottom: 20px;
+    width: fit-content;
+    height: min-content;
 }
 
 .copyrightBox{
     float: right;
     width: 55vw;
-    height: 100px;
-    line-height: 100px;
+    height: 300px;
     background-color: wheat;
 }
 
-.copyright {
+.copyright{
     width: fit-content;
     height: min-content;
-    float: right;
-    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
 }
 
 .info {
     display: none;
     width: fit-content;
     height: min-content;
-    float: right;
-    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
 }
 
 /* 기타(audio, popup 등)에 관한 스타일 적용 */
