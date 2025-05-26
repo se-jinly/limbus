@@ -8,15 +8,17 @@ $(document).ready(function(){
         $(".copyright").show()
         $(".info").hide()
     })
+     (type = "text/javascript");
+
     
-    $(".teamName").mouseover(function(){
-        $(".teamName").hide()
-        $(".gitSite").show()
-    })
-    $(".gitSite").mouseout(function(){
-        $(".teamName").show()
-        $(".gitSite").hide()
-    })
+    // $(".teamName").mouseover(function(){
+    //     $(".teamName").hide()
+    //     $(".gitSite").show()
+    // })
+    // $(".gitSite").mouseout(function(){
+    //     $(".teamName").show()
+    //     $(".gitSite").hide()
+    // })
 
 
 })
