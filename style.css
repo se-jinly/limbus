@@ -1,0 +1,324 @@
+@charset "utf-8";
+
+/* 기본적인 구조의 스타일 적용 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    color: #000;
+    /* overflow: hidden; */
+}
+
+.limbg {
+    background-image: url(../image/limbg4.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+    margin-top: 100px;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+/* 상단바 header에 관한 스타일 */
+
+header {
+    background-color: brown;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.logo {
+    float: left;
+    width: 50px;
+    margin: 25px;
+    height: 50px;
+    margin-right: 0;
+}
+
+#title {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 25px;
+}
+
+.mainMenu {
+    float: left;
+    width: 350px;
+    height: 50px;
+    margin: 25px;
+    margin-left: 200px;
+}
+
+.mainMenugap {
+    display: flex;
+    gap: 50px;
+}
+
+.mainMenu>ul>li {
+    float: left;
+    width: 70px;
+    height: 50px;
+    position: relative;
+}
+
+.subMenu {
+    position: absolute;
+    top: 75px;
+    display: none;
+}
+
+/* 카드 효과 (수정 필요) */
+
+.container {
+    position: relative;
+    width: 220px;
+    height: 310px;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    width: 220px;
+    height: 310px;
+    background: linear-gradient(105deg,
+            transparent 40%,
+            rgba(255, 219, 112, 0.8) 45%,
+            rgba(132, 50, 255, 0.6) 50%,
+            transparent 54%);
+    filter: brightness(1.1) opacity(0.8);
+    mix-blend-mode: color-dodge;
+    background-size: 150% 150%;
+    background-position: 100%;
+    transition: all 0.1s;
+}
+
+.cardbox {
+    border-radius: 20px;
+    background-color: rgb(167, 167, 167);
+    max-width: 640px
+}
+
+.card {
+    width: 220px;
+    height: 310px;
+    background-image: url(../image/1.png);
+    background-size: cover;
+}
+
+/* 메인에 대한 스타일 적용 */
+
+/* index */
+
+.main {
+    overflow-y: auto;
+    width: 100%;
+    height: calc(100% - 130px);
+    background-color: rgb(0, 0, 0);
+}
+
+.cimg {
+    width: 220px;
+    height: 300px;
+    position: absolute;
+}
+
+.cardSet {
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    justify-content: center;
+    margin-top: -30px;
+    margin-left: -35px;
+    row-gap: 60px;
+    column-gap: 100px;
+}
+.zkem{
+    width: 220px;
+    height: 300px;
+}
+
+
+/* keyword */
+
+.keywordbody {
+    width: 100%;    
+    height: 155%;
+}
+
+.keywordmain {
+    overflow-y: auto;
+    min-height: 100vh;
+    height: calc(120% - 200px);
+    background-color: rgb(0, 0, 0);
+}
+
+.keywordimgsize {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 25px;
+}
+
+.keywordimgsize2 {
+    width: 150px;
+    height: 100px;
+}
+
+.kimgc {
+    margin-top: 150px;
+}
+
+.kimgd {
+    margin-top: -20px;
+}
+
+.kimge {
+    margin-top: 150px;
+}
+
+.klgrid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 200px;
+}
+
+/* gift */
+
+.giftbody {
+    width: 100%;
+    height: 300%;
+}
+
+.giftmain {
+    overflow-y: auto;
+    min-height: 100vh;  
+    height: calc(1900px - 200px);
+    background-color: rgb(0, 0, 0);
+}
+
+.kcd {
+    display: flex;
+    margin-left: 450px;
+    margin-right: auto;
+    margin-top: 25px;
+
+}
+
+.kcd1 {
+    display: flex;
+
+    margin-left: 450px;
+    margin-right: auto;
+}
+
+.kcdmargin {
+    margin-top: 50px;
+}
+
+.kcdamargin {
+    margin-left: 250px;
+}
+
+.box {
+    border-radius: 20px;
+    background-color: rgb(167, 167, 167);
+    padding: 15px 5px;
+    margin: 5px 300px;
+    max-width: 640px
+}
+
+.giftsize {
+    width: 1000px;
+    height: 200px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+
+/* footer에 관한 스타일 적용 */
+
+footer {
+    width: 100%;
+    height: 100px;
+}
+
+.leftFooterBox {
+    width: 45vw;
+    height: 100px;
+    float: left;
+}
+
+.fanMade {
+    padding-left: 30px;
+    padding-top: 2px;
+    width: fit-content;
+    height: min-content;
+}
+
+.teamName {
+    width: fit-content;
+    height: min-content;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.gitSite {
+    width: fit-content;
+    height: min-content;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.copyrightBox {
+    float: right;
+    width: 50vw;
+    height: 100px;
+    background-color: wheat;
+}
+
+.copyright {
+    width: 10vw;
+    height: 100px;
+    padding-top: 35px;
+    float: right;
+}
+
+.info {
+    display: none;
+    width: 45vw;
+    height: 100px;
+    padding-top: 35px;
+    float: right;
+}
+
+
+/* 기타(audio, popup 등)에 관한 스타일 적용 */
+
+audio {
+    margin-top: 25px;
+    margin-left: 750px;
+}
+
