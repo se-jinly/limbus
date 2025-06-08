@@ -169,7 +169,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    min-height: calc(100vh - 200px);
+    min-height: calc(100vh - 250px);
 }
 
 .cimg {
@@ -182,8 +182,7 @@ header {
     display: grid;
     grid-template-columns: repeat(6, 200px);
     justify-content: center;
-    margin-top: 40px;
-    margin-left: -35px;
+    padding: 200px 800px;
     row-gap: 60px;
     column-gap: 100px;
 }
@@ -298,18 +297,13 @@ header {
 
 /* footer에 관한 스타일 적용 */
 
-.footer1 {
-    color: white;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin-top: 4px;
-    width: 100%;
-    height: 100px;
+footer, .footer1, footer * {
+    background-color: black !important;
+    color: white !important;
 }
 
-footer {
-    color: white;
+.footer1 {
+    margin-top: 4px;
     width: 100%;
     height: 100px;
 }
@@ -345,12 +339,14 @@ footer {
     float: right;
     width: 50%;
     height: 100px;
+    text-align: right;
 }
 
 .copyright {
-    width: 10vw;
+    width: 45vw;
     height: 100px;
-    padding-top: 35px;
+    padding-top: 60px;
+    padding-right: 30px;
     float: right;
 }
 
@@ -358,7 +354,8 @@ footer {
     display: none;
     width: 45vw;
     height: 100px;
-    padding-top: 35px;
+    padding-top: 60px;
+    padding-right: 30px;
     float: right;
 }
 
