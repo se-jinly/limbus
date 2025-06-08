@@ -13,7 +13,7 @@
 
 .limbg {
     background-color: black;
-    background-image: url(/limbus/image/limbg4.jpg);
+    background-image: url(../image/limbg4.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -154,7 +154,7 @@ header {
 .card {
     width: 220px;
     height: 310px;
-    background-image: url(/limbus/image/1.png);
+    background-image: url(../image/1.png);
     background-size: cover;
 }
 
@@ -164,7 +164,7 @@ header {
 
 .main {
     background-color: black;
-    background-image: url(/limbus/image/limbg4.jpg);
+    background-image: url(../image/limbg4.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -202,7 +202,7 @@ header {
 
 .keywordmain {
     background-color: black;
-    background-image: url(/limbus/image/limbg4.jpg);
+    background-image: url(../image/limbg4.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -248,7 +248,7 @@ header {
 
 .giftmain {
     background-color: black;
-    background-image: url(/limbus/image/limbg4.jpg);
+    background-image: url(../image/limbg4.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -257,15 +257,9 @@ header {
 
 .kcd {
     display: flex;
-    margin-left: 450px;
+    justify-content: center;
     margin-right: auto;
     margin-top: 25px;
-
-}
-
-.kcd1 {
-    display: flex;
-    margin-left: 450px;
 }
 
 /* .kcdmargin {
