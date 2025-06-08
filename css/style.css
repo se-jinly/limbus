@@ -12,11 +12,10 @@
 }
 
 .limbg {
+    background-color: black;
     background-image: url(../image/limbg4.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
-    background-position-x: center;
-    margin-top: 100px;
+    background-position: center;
 }
 
 a {
@@ -25,13 +24,13 @@ a {
 }
 
 html {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 body {
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 @media (max-width: 800px) {
@@ -40,6 +39,15 @@ body {
     }
 }
 
+.textcolorgold {
+    color: gold;
+    margin-left: 40px;
+}
+
+.textcolorgold2 {
+    color: gold;
+    text-align: center;
+}
 /* 상단바 header에 관한 스타일 */
 
 header {
@@ -119,8 +127,22 @@ header {
 .cardbox {
     border-radius: 20px;
     background-color: rgb(167, 167, 167);
-    max-width: 640px
+    width: 900px;
 }
+
+.cardbox2 {
+    border-radius: 20px;
+    background-color: rgb(167, 167, 167);
+    width: 450px;
+}
+
+.cardbox3 {
+    border-radius: 20px;
+    background-color: rgb(167, 167, 167);
+    width: 900px;
+    margin-left: -678px;
+}
+
 
 .card {
     width: 220px;
@@ -134,10 +156,12 @@ header {
 /* index */
 
 .main {
-    overflow-y: auto;
-    width: 100%;
-    height: calc(100% - 130px);
-    background-color: rgb(0, 0, 0);
+    background-color: black;
+    background-image: url(../image/limbg4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 710px;
 }
 
 .cimg {
@@ -150,12 +174,13 @@ header {
     display: grid;
     grid-template-columns: repeat(6, 200px);
     justify-content: center;
-    margin-top: -30px;
+    margin-top: 40px;
     margin-left: -35px;
     row-gap: 60px;
     column-gap: 100px;
 }
-.zkem{
+
+.zkem {
     width: 220px;
     height: 300px;
 }
@@ -164,16 +189,18 @@ header {
 /* keyword */
 
 .keywordbody {
-    width: 100%;    
-    height: 155%;
+    width: 100%;
+    height: auto;
 }
 
 .keywordmain {
-    overflow-y: auto;
-    min-height: 100vh;
-    height: calc(120% - 200px);
-    background-color: rgb(0, 0, 0);
-}
+    background-color: black;
+    background-image: url(../image/limbg4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: auto;
+ }
 
 .keywordimgsize {
     display: flex;
@@ -213,10 +240,12 @@ header {
 }
 
 .giftmain {
-    overflow-y: auto;
-    min-height: 100vh;  
-    height: calc(1900px - 200px);
-    background-color: rgb(0, 0, 0);
+    background-color: black;
+    background-image: url(../image/limbg4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: auto;
 }
 
 .kcd {
@@ -229,25 +258,23 @@ header {
 
 .kcd1 {
     display: flex;
-
     margin-left: 450px;
-    margin-right: auto;
 }
 
-.kcdmargin {
+/* .kcdmargin {
     margin-top: 50px;
 }
 
 .kcdamargin {
     margin-left: 250px;
-}
+} */
 
 .box {
     border-radius: 20px;
     background-color: rgb(167, 167, 167);
     padding: 15px 5px;
     margin: 5px 300px;
-    max-width: 640px
+    width: 1010px;
 }
 
 .giftsize {
@@ -255,10 +282,25 @@ header {
     height: 200px;
     margin-top: -20px;
     margin-left: -20px;
+    border: 2px solid;
+    border-color: gray;
 }
 
+.whgkqtlr {
+    width: 1000px;
+    height: 650px;
+    margin-left: -20px;
+    border: 2px solid;
+    border-color: gray;
+}
 
 /* footer에 관한 스타일 적용 */
+
+.footer1 {
+    margin-top: 4px;
+    width: 100%;
+    height: 100px;
+}
 
 footer {
     width: 100%;
@@ -266,7 +308,8 @@ footer {
 }
 
 .leftFooterBox {
-    width: 45vw;
+    background-color: white;
+    width: 50%;
     height: 100px;
     float: left;
 }
@@ -294,7 +337,7 @@ footer {
 
 .copyrightBox {
     float: right;
-    width: 50vw;
+    width: 50%;
     height: 100px;
     background-color: wheat;
 }
@@ -321,5 +364,3 @@ audio {
     margin-top: 25px;
     margin-left: 750px;
 }
-
-
