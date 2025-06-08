@@ -48,6 +48,13 @@ body {
     color: gold;
     text-align: center;
 }
+
+.textcolorgold3 {
+    color: gold;
+    font-weight: bold;
+    font-size: 25px;
+}
+
 /* 상단바 header에 관한 스타일 */
 
 header {
@@ -68,14 +75,14 @@ header {
 
 #title {
     float: left;
-    width: 100px;
+    width: 150px;
     height: 50px;
     margin: 25px;
 }
 
 .mainMenu {
     float: left;
-    width: 350px;
+    width: 500px;
     height: 50px;
     margin: 25px;
     margin-left: 200px;
@@ -88,7 +95,7 @@ header {
 
 .mainMenu>ul>li {
     float: left;
-    width: 70px;
+    width: 150px;
     height: 50px;
     position: relative;
 }
