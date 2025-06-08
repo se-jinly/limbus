@@ -13,7 +13,7 @@
 
 .limbg {
     background-color: black;
-    background-image: url(../image/limbg4.jpg);
+    background-image: url(/limbus/image/limbg4.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -24,6 +24,7 @@ a {
 }
 
 html {
+    position: relative;
     width: 100%;
     height: 100%;
 }
@@ -154,7 +155,7 @@ header {
 .card {
     width: 220px;
     height: 310px;
-    background-image: url(../image/1.png);
+    background-image: url(/limbus/image/1.png);
     background-size: cover;
 }
 
@@ -164,11 +165,11 @@ header {
 
 .main {
     background-color: black;
-    background-image: url(../image/limbg4.jpg);
+    background-image: url(/limbus/image/limbg4.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    min-height: 710px;
+    min-height: calc(100vh - 200px);
 }
 
 .cimg {
@@ -202,7 +203,7 @@ header {
 
 .keywordmain {
     background-color: black;
-    background-image: url(../image/limbg4.jpg);
+    background-image: url(/limbus/image/limbg4.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -248,7 +249,7 @@ header {
 
 .giftmain {
     background-color: black;
-    background-image: url(../image/limbg4.jpg);
+    background-image: url(/limbus/image/limbg4.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -298,14 +299,17 @@ header {
 /* footer에 관한 스타일 적용 */
 
 .footer1 {
+    color: white;
     position: absolute;
     bottom: 0;
+    left: 0;
     margin-top: 4px;
     width: 100%;
     height: 100px;
 }
 
 footer {
+    color: white;
     width: 100%;
     height: 100px;
 }
