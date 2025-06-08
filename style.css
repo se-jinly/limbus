@@ -298,6 +298,8 @@ header {
 /* footer에 관한 스타일 적용 */
 
 .footer1 {
+    position: absolute;
+    bottom: 0;
     margin-top: 4px;
     width: 100%;
     height: 100px;
@@ -309,7 +311,6 @@ footer {
 }
 
 .leftFooterBox {
-    background-color: white;
     width: 50%;
     height: 100px;
     float: left;
@@ -340,7 +341,6 @@ footer {
     float: right;
     width: 50%;
     height: 100px;
-    background-color: wheat;
 }
 
 .copyright {
