@@ -12,7 +12,7 @@
 }
 
 .limbg {
-    background-image: url(https://raw.githubusercontent.com/se-jinly/limbus/main/image/limbg4.jpg);
+    background-image: url(image/limbg4.jpg);
     background-repeat: no-repeat;
     background-size: auto;
     background-position-x: center;
@@ -125,7 +125,7 @@ header {
 .card {
     width: 220px;
     height: 310px;
-    background-image: url(https://raw.githubusercontent.com/se-jinly/limbus/main/image/1.png);
+    background-image: url(image/1.png);
     background-size: cover;
 }
 
